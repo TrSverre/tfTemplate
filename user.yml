@@ -1,3 +1,4 @@
+#cloud-config
 datasource:
  Ec2:
   strict_id: false
@@ -8,4 +9,3 @@ users:
   shell: /bin/bash
   ssh_authorized_keys:
   - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICAp7cHJUBf4Nk/cJoUX7e5m6Hch7As/tfmT9Xnzh2Sc sverre\sverre@Sverre
-runcmd: []

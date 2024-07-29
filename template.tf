@@ -15,8 +15,8 @@ variable "paramsvm" {
   type        = map(string)
   default     = {
     namevm1     = "lessonvm1",
-    cor1        = 2,
-    mem1        = 2,
+    cor1        = 4,
+    mem1        = 4,
     namevm2     = "lessonvm2",
     cor2        = 2,
     mem2        = 2,
